@@ -12,5 +12,6 @@ public class SeleniumIntroduction {
 		driver.get("https://google.com");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
+		driver.close();
 	}
 }
