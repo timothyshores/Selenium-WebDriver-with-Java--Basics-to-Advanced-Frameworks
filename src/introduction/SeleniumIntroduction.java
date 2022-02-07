@@ -9,6 +9,6 @@ public class SeleniumIntroduction {
 		System.setProperty("webdriver.chrome.driver", "/Users/tim/Documents/Code/Selenium-WebDriver-with-Java--Basics-to-Advanced-Frameworks/chromedriver");
 		
 		WebDriver driver = new ChromeDriver();
-		
+		driver.get("https://google.com");
 	}
 }
