@@ -11,6 +11,6 @@ public class SeleniumIntroduction {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://google.com");
 		System.out.println(driver.getTitle());
-		
+		System.out.println(driver.getCurrentUrl());
 	}
 }
