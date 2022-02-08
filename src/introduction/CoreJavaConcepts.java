@@ -9,10 +9,18 @@ public class CoreJavaConcepts {
 		double price = 9.99;
 		boolean userIsActive = true;
 		
-		System.out.println("num: " + num);
-		System.out.println("letter: " + letter);
-		System.out.println("name: " + name);
-		System.out.println("price: " + price);
-		System.out.println("userIsActive: " + userIsActive);
+		System.out.println("num: " + num); 						// returns "num: 5"
+		System.out.println("letter: " + letter); 				// returns "letter: T"
+		System.out.println("name: " + name);					// returns "name: Tim"
+		System.out.println("price: " + price);					// returns "price: 9.99"
+		System.out.println("userIsActive: " + userIsActive); 	// returns "userIsActive: true"
+		
+		int[] arr = new int[4];
+		arr[0] = 1;
+		arr[0] = 2;
+		arr[0] = 3;
+		arr[0] = 4;
+
+		System.out.println("arr: " + arr);						// returns "arr: [I@7ad041f3"
 	}
 }
