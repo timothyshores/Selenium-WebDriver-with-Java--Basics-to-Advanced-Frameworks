@@ -30,5 +30,11 @@ public class CoreJavaConcepts {
 		for (int i = 0; i < shortCutArr.length; i++) {
 			System.out.println("shortCutArr[" + i + "]: " + shortCutArr[i]);
 		}
+		
+		char[] letters = {'a', 'b', 'c', 'd'};
+		
+		for (int i = 0; i < letters.length; i++) {
+			System.out.println("letters[" + i + "]: " + letters[i]);
+		}
 	}
 }
