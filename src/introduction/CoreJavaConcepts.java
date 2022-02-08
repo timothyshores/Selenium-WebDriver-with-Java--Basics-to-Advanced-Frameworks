@@ -21,16 +21,14 @@ public class CoreJavaConcepts {
 		arr[2] = 3;
 		arr[3] = 4;
 
-		System.out.println("arr: " + arr);							// returns "arr: [I@7ad041f3"
-		System.out.println("arr[0]: " + arr[0]);					// returns "arr[0]: 1"
-		System.out.println("arr[1]: " + arr[1]);					// returns "arr[1]: 2"
-		System.out.println("arr[2]: " + arr[2]);					// returns "arr[2]: 3"
-		System.out.println("arr[3]: " + arr[3]);					// returns "arr[3]: 4"
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println("arr[" + i + "]: " + arr[i]);
+		}
 			
 		int[] shortCutArr = {1,2,3};
-		System.out.println("shortCutArr: " + shortCutArr);			// returns "shortCutArr: [I@251a69d7"
-		System.out.println("shortCutArr[0]: " + shortCutArr[0]);	// returns "shortCutArr[0]: 1"
-		System.out.println("shortCutArr[1]: " + shortCutArr[1]);	// returns "shortCutArr[0]: 2"
-		System.out.println("shortCutArr[2]: " + shortCutArr[2]);	// returns "shortCutArr[0]: 3"
+		
+		for (int i = 0; i < shortCutArr.length; i++) {
+			System.out.println("shortCutArr[" + i + "]: " + shortCutArr[i]);
+		}
 	}
 }
