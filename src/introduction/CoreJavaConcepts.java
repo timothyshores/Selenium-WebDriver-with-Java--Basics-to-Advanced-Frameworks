@@ -5,13 +5,11 @@ public class CoreJavaConcepts {
 	public static void main(String[] args) {
 		int num = 5;
 		char letter = 'T';
-		String name = "Tim";
 		double price = 9.99;
 		boolean userIsActive = true;
 		
 		System.out.println("num: " + num); 							// returns "num: 5"
 		System.out.println("letter: " + letter); 					// returns "letter: T"
-		System.out.println("name: " + name);						// returns "name: Tim"
 		System.out.println("price: " + price);						// returns "price: 9.99"
 		System.out.println("userIsActive: " + userIsActive); 		// returns "userIsActive: true"
 		
@@ -35,6 +33,12 @@ public class CoreJavaConcepts {
 		
 		for (int i = 0; i < letters.length; i++) {
 			System.out.println("letters[" + i + "]: " + letters[i]);
+		}
+		
+		String[] names = {"Tim", "Alice", "Bob", "Candice"};
+		
+		for (String name: names) {
+			System.out.println(name);
 		}
 	}
 }
