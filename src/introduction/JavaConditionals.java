@@ -19,6 +19,19 @@ public class JavaConditionals {
 				System.out.println(num);
 			}
 		}
+		
+		System.out.println("\nPrint whether a number is even or odd in the nums array");
+		System.out.println("E.g {1, 2, 3} -> 1 is odd, 2 is  even, 3 is odd, etc.");
+		
+		for (int num: nums) {
+			if (num % 2 == 1) {
+				System.out.println(num + " is odd");
+			}
+			else {
+				System.out.println(num + " is even");
+			}
+		}
+		
 	}
 
 }
