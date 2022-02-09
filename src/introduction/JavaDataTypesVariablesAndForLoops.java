@@ -1,5 +1,7 @@
 package introduction;
 
+import java.util.ArrayList;
+
 public class JavaDataTypesVariablesAndForLoops {
 
 	public static void main(String[] args) {
@@ -40,5 +42,19 @@ public class JavaDataTypesVariablesAndForLoops {
 		for (String name: names) {
 			System.out.println(name);
 		}
+		
+		ArrayList<String> al = new ArrayList<String>();
+		al.add("Tim");
+		al.add("Alice");
+		al.add("Bob");
+		al.add("Candice");
+		
+		System.out.println(al); 			// returns [Tim, Alice, Bob, Candice]
+		
+		al.remove(3);
+		al.remove(2);
+		
+		System.out.println(al); 			// returns [Tim, Alice]
+		System.out.println(al.get(0));		// returns Tim
 	}
 }
