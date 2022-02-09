@@ -3,7 +3,7 @@ package introduction;
 public class JavaConditionals {
 
 	public static void main(String[] args) {
-		int[] nums = {1,2,3,4,5};
+		int[] nums = {1, 2, 3, 4, 5, 6, 7, 8};
 		
 		System.out.println("Multiply each number in the nums array and return each element multiplied by 2");
 		System.out.println("E.g. {1, 2, 3, 4} -> {2, 4, 6, 8}");
@@ -32,6 +32,15 @@ public class JavaConditionals {
 			}
 		}
 		
+		System.out.println("\nPrint the first even number that is divisable by 2 and 4");
+		System.out.println("E.g {1, 2, 3, 4, 5, 6, 7, 8} -> 4");
+		
+		for (int num: nums) {
+			if (num % 2 == 0 && num % 4 == 0) {
+				System.out.println(num + " is divisible by both 2 and 4");
+				break;
+			}
+		}
 	}
 
 }
