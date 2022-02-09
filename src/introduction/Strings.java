@@ -20,6 +20,14 @@ public class Strings {
 		System.out.println(courseNameArray[1]);
 		System.out.println(courseNameArray[2]);
 		System.out.println(courseNameArray[3]);
+	
+		// Reverse a given string. E.g. "hello world" -> "dlrow olleh"
+		
+		String str5 = "hello world";
+		
+		for (int i = str5.length() - 1;i >= 0; i--) {
+			System.out.println(str5.charAt(i));
+		}
 	}
 
 }
