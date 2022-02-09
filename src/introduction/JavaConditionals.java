@@ -8,6 +8,10 @@ public class JavaConditionals {
 		// TODO: 
 		// Multiply each number in the nums array and return each element multiplied by 2
 		// E.g. {1, 2, 3, 4} -> {2, 4, 6, 8}
+		
+		for (int num: nums) {
+			System.out.println(num * 2);
+		}
 	}
 
 }
