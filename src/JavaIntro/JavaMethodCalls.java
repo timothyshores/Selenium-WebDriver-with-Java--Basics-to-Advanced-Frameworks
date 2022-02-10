@@ -1,9 +1,9 @@
-package introduction;
+package JavaIntro;
 
-public class Methods {
+public class JavaMethodCalls {
 
 	public static void main(String[] args) {
-		MethodsClass methodsClassObj = new MethodsClass();
+		JavaMethodsClass methodsClassObj = new JavaMethodsClass();
 		methodsClassObj.getData();
 		methodsClassObj.writeThatDown();
 	}

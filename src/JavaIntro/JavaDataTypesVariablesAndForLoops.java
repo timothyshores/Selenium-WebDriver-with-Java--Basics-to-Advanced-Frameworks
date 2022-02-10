@@ -1,4 +1,4 @@
-package introduction;
+package JavaIntro;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
-package introduction;
+package JavaIntro;
 
-public class Strings {
+public class JavaStrings {
 
 	public static void main(String[] args) {
 		// String Literal

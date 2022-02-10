@@ -1,4 +1,4 @@
-package introduction;
+package JavaIntro;
 
 public class JavaConditionals {
 

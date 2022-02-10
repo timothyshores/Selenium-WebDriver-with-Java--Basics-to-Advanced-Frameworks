@@ -1,6 +1,6 @@
-package introduction;
+package JavaIntro;
 
-public class MethodsClass {
+public class JavaMethodsClass {
 	public static void main() {
 		getData();
 		writeThatDown();
