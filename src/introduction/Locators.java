@@ -20,7 +20,8 @@ public class Locators {
 		driver.findElement(By.className("signInBtn")).click();
 		driver.findElement(By.linkText("Forgot your password?")).click();
 		driver.findElement(By.xpath("//input[@placeholder='Name']")).sendKeys("tim");
-		
-		
+		driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("tim@optum.com");
+		driver.findElement(By.xpath("//input[@type='text'][2]")).clear();
+		driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("tim.shores@optum.com");
 	}
 }
