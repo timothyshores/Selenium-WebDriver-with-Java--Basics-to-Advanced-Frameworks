@@ -23,5 +23,11 @@ public class Locators {
 		driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("tim@optum.com");
 		driver.findElement(By.xpath("//input[@type='text'][2]")).clear();
 		driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("tim.shores@optum.com");
+		driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("tim@optum.com");
+		driver.findElement(By.xpath("//form/input[3]")).sendKeys("555-123-4567");
+		driver.findElement(By.cssSelector("button.reset-pwd-btn")).click();
+		
+		String message = driver.findElement(By.cssSelector("form p")).getText();
+		System.out.println(message);
 	}
 }
